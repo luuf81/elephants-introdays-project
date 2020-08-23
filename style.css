@@ -1,0 +1,109 @@
+header {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;    
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 7px palevioletred;
+
+}
+body {
+    font-family: sans-serif;
+    background-image: url("./images/pink_rice.png");
+}
+
+.link-section {
+    height: 100px;
+    
+
+}
+
+span {
+    flex-direction: row;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    padding-top: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 40px;
+    height: 750px;
+    
+
+}
+
+img {
+    max-width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    object-fit: cover;
+
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+a:hover {
+    color: pink;
+} 
+
+p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+
+    section {
+        width: 80%;
+    }
+
+    header {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    span {
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+    }
+
+    a {
+        padding: 5px;
+    }
+   
+    .link-section {
+        height: 150px;
+    }
+}
